@@ -7,7 +7,7 @@ spec:
   project: argo-cd-setup
   source:
     repoURL: https://github.com/rogeriorocha/gitops-k8s.git
-    targetRevision: main
+    targetRevision: master
     path: package
     helm:
       valueFiles:
