@@ -29,7 +29,7 @@ metadata:
 spec:
   source:
     gitRepoUrl: https://github.com/rogeriorocha/gitops-k8s.git
-    targetRevision: main
+    targetRevision: master
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
