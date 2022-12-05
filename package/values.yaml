@@ -6,7 +6,7 @@ apps:
   - name: istio
     enabled: true
     namespace: istio-system
-    loadPath: apps/service-mesh/istio
+    loadPath: app/service-mesh/istio
     ignoreDifferences:
       # Ignore caBundle diff due to runtime updates to the config
       - group: admissionregistration.k8s.io
